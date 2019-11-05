@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import javax.annotation.Resource;
+// import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -22,9 +22,9 @@ import java.util.List;
 @ContextConfiguration(locations = {"classpath*:spring/*.xml"})
 public class Test {
     private static Logger logger=Logger.getLogger(Test.class);
-    @Resource
+    // @Resource
     private ItemCatService itemCatService;
-    @Resource
+    // @Resource
     private ItemMapper itemMapper;
     @org.junit.Test
     public void test1(){
